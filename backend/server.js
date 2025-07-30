@@ -19,7 +19,7 @@ connectCloudinary()
 //middlewares
 app.use(express.json())
 app.use(cors({
-    origin: ["http://localhost:5173", "https://ecommerce-frontend-beige-zeta.vercel.app"],
+    origin: ["http://localhost:5173", "https://ecommerce-frontend-beige-zeta.vercel.app","https://ecommerce-admin-fawn-delta.vercel.app/"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
